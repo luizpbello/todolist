@@ -1,24 +1,30 @@
-# todolist
+### Lista de tarefas simples
 
-## Project setup
+Uma lista de tarefas simples feita com VueJS.
+
+### Tela inicial
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/88148849/184712289-208c58c9-497d-400f-8119-52942a7de892.png" width="500px" height="300px" />
+</div>
+
+### Aplicação funcionando com tarefas e barra de progresso
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/88148849/184712985-27e0f416-a088-415f-a671-19ba2d6c04fc.png" width="500px" height="300px" />
+</div>
+
+
+### Para clonar o projeto
 ```
-npm install
+git clone https://github.com/luizpbello/todolist.git
 ```
 
-### Compiles and hot-reloads for development
+
+### Para rodar o projeto localmente
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
