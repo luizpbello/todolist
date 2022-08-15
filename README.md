@@ -15,6 +15,10 @@ Uma lista de tarefas simples feita com VueJS.
 </div>
 
 
+### Link do projeto
+
+https://todolist-luizpbello.vercel.app/
+
 ### Para clonar o projeto
 ```
 git clone https://github.com/luizpbello/todolist.git
