@@ -14,7 +14,7 @@
         </task>
       </TaskItem>
     </template>
-    <p v-else class="no-task"> Sem tarefas hoje!</p>
+    <p v-else class="no-task"> Sem tarefas hoje</p>
   
   </div>
 </template>
