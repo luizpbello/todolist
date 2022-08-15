@@ -1,7 +1,7 @@
 <template>
   <div class="task-grid">
     <template v-if="tasks.length">
-      <Task
+      <TaskItem
         class="task-grid-item"
         v-for="(task, i) in tasks"
         :key="task.title"
@@ -12,7 +12,7 @@
         <task class="card">
           {{ task.title }}
         </task>
-      </Task>
+      </TaskItem>
     </template>
     <p v-else class="no-task"> Sem tarefas hoje!</p>
   
@@ -20,12 +20,12 @@
 </template>
 
 <script>
-import Task from "./Task.vue";
+import TaskItem from "./TaskItem.vue";
 
 export default {
   name: "TaskGrid",
   components: {
-    Task,
+    TaskItem,
   },
   props: {
     tasks: {
